@@ -1,0 +1,226 @@
+body {
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+  /*This css style covers all four margins at once*/
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Vibur', cursive;
+  font-size: 5.625rem;
+  margin-bottom: 15px;
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #11999E;
+}
+
+.aProgrammer {
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+  width: 20%;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2.4;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: bold;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 20%;
+  top: 425px
+}
+
+.bottomDiv{
+  background-color: #66BFBF;
+  margin-top: 80px;
+  padding-top: 40px;
+}
+
+.contactMeButton {
+	-moz-box-shadow:inset 0 1px 0 0 #66bfbf;
+	-webkit-box-shadow:inset 0 1px 0 0 #66bfbf;
+	box-shadow:inset 0 1px 0 0 #66bfbf;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66bfbf), color-stop(1, #42a6a6) );
+	background:-moz-linear-gradient( center top, #66bfbf 5%, #42a6a6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bfbf', endColorstr='#42a6a6');
+	background-color:#66bfbf;
+	-webkit-border-top-left-radius:7px;
+	-moz-border-radius-topleft:7px;
+	border-top-left-radius:7px;
+	-webkit-border-top-right-radius:7px;
+	-moz-border-radius-topright:7px;
+	border-top-right-radius:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-moz-border-radius-bottomright:7px;
+	border-bottom-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-moz-border-radius-bottomleft:7px;
+	border-bottom-left-radius:7px;
+	text-indent:0;
+	border:1px solid #66bfbf;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:1.4rem;
+	height:46px;
+	line-height:46px;
+	width:161px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0 #66bfbf;
+  margin-top: 50px;
+}
+.contactMeButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30e3cb), color-stop(1, #2bc4ad) );
+	background:-moz-linear-gradient( center top, #42a6a6 5%, #66bfbf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#42a6a6', endColorstr='#66bfbf');
+	background-color:#42a6a6;
+}.contactMeButton:active {
+	position:relative;
+	top:1px;}
+/* This button was generated using CSSButtonGenerator.com */
+
+.contact-me p{
+  width: 35%;
+  margin: 40px auto 10px;
+}
+
+.copyRight{
+  color: #EAF6F6;
+  margin: 30px auto 5px auto;
+  font-size: .9rem;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #30e3cb;
+}
+
+.helloParagraph {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.iconMandatory{
+  color: #EAF6F6;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: .9rem;
+}
+
+.mountain {
+  position: relative;
+  top: 253px;
+}
+
+.profilePic {
+  padding-top: 50px;
+  width: 10%;
+  margin-top: 35px;
+}
+
+.skill-row-one{
+  margin: 65px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+  padding-top: 1px;
+}
+
+.skill-row-one p{
+  margin-top: 0;
+}
+
+.skill-row-one h3{
+  margin-bottom: 0;
+}
+
+.skill-row-two{
+  margin: 100px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+  padding-top: 1px;
+}
+
+.skill-row-two p{
+  margin-top: 0;
+}
+
+.skill-row-two h3{
+  margin-bottom: 0;
+}
+
+.skillImageOne{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillImageTwo{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.threeDots{
+  border: .5rem dotted;
+  width: 4%;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  margin: 100px auto;
+  color: #EAF6F6;
+}
+
+.topCloud {
+  position: absolute;
+  left: 70%;
+  top: 130px;
+}
+
+.topDiv {
+  background-color: #EAF6F6;
+  height: 900px;
+  position: static;
+  padding-top: 50px;
+  /*needs to be relative to use as parent for
+  adjusting other elements*/
+}
+
+.topText {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
