@@ -136,8 +136,9 @@ p {
 }
 
 .mountain {
-  position: relative;
-  top: 253px;
+  position: absolute;
+  top: 594px;
+  left: 35%;
 }
 
 .profilePic {
