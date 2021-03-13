@@ -136,9 +136,16 @@ p {
 }
 
 .mountain {
+  bottom: -3;
+  position: relative;
+}
+
+.mountainDiv{
+  bottom: 0;
+  height: fit-content;
   position: absolute;
-  top: 594px;
-  left: 35%;
+  width: 100%;
+
 }
 
 .profilePic {
@@ -210,7 +217,7 @@ p {
 .topDiv {
   background-color: #EAF6F6;
   height: 900px;
-  position: static;
+  position: relative;
   padding-top: 50px;
   /*needs to be relative to use as parent for
   adjusting other elements*/
